@@ -1,0 +1,74 @@
+C:/Users/84308/Desktop/project/uvm_asynfifo/rtl/comparator.v {1 {vlog -work work -vopt -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\comparator.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module compare_wr
+-- Compiling module compare_rd
+
+Top level modules:
+	compare_wr
+	compare_rd
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/rtl/pointer.v {1 {vlog -work work -vopt -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\pointer.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module pointer
+
+Top level modules:
+	pointer
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/rtl/memory.v {1 {vlog -work work -vopt -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\memory.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/tb/tb.sv {2 {vlog -work work -vopt -sv -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) C:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv(3): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: C:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv(1): (vlog-13233) Design unit "tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package tb_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package fifo_test_pkg
+-- Importing package fifo_pkg
+-- Compiling interface fifo_intf
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) C:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv(4): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package fifo_if_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface fifo_intf
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/rtl/sync.v {1 {vlog -work work -vopt -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\sync.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module sync_w2r
+-- Compiling module sync_r2w
+
+Top level modules:
+	sync_w2r
+	sync_r2w
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/rtl/fifo_top.v {1 {vlog -work work -vopt -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\fifo_top.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module fifo_top
+
+Top level modules:
+	fifo_top
+
+} {} {}} C:/Users/84308/Desktop/project/uvm_asynfifo/tb/test.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\84308\Desktop\project\uvm_asynfifo\tb\test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package fifo_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:\Users\84308\Desktop\project\uvm_asynfifo\tb\test.sv(3): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package fifo_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

@@ -1,0 +1,83 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = TRUE
+powerDumped = 0
+[hb]
+postSimFile = /home/ian/project/uvm_asynfifo/vcs/inter.fsdb
+syncTime = 620000
+viewport = 1920 0 2228 1295 0 0 498 1500
+activeNode = "base_test.env.fifo_ref.wr_fifo.analysis_export"
+activeScope = "base_test.env.fifo_ref.wr_fifo.analysis_export.write"
+activeFile = "/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2//etc/uvm-1.2/tlm1/uvm_analysis_port.svh#inc__uvm_pkg__78#"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 120
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "base_test.env.fifo_ref.wr_fifo.analysis_export.write"
+Scope2 = "tb"
+rangeSelection = 125 125 1 8 1 1
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-simflow" "-dbdir" "./simv.daidir" 
+invokeDir = /home/ian/project/uvm_asynfifo/vcs
+[hb.sourceTab.1]
+scope = base_test.env.fifo_ref.wr_fifo.analysis_export.write
+File = /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/tlm1/uvm_analysis_port.svh#inc__uvm_pkg__78#
+Line = 121
+[nMemoryManager]
+WaveformFile = /home/ian/project/uvm_asynfifo/vcs/inter.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 27 1502 526 100 74
+primaryWindow = TRUE
+SessionFile = /home/ian/project/uvm_asynfifo/vcs/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

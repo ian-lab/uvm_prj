@@ -1,0 +1,43 @@
+register,address,reg_access,field,field_access,reset_value,bitpos_end,bitpos_start,function
+txd,0x00,WO,data,WO,0x0,7,0,Write to the bottom of the Transmit FIFO
+rxd,0x00,RO,data,RO,0x0,7,0,Read from the top of the Receive FIFO
+ier,0x04,RW,RDI,RW,0x0,0,0,Receive Data Interrupt enable
+,,RW,TXE,RW,0x0,1,1,Transmit Holding Register empty interrupt enable 
+,,RW,RXS,RW,0x0,2,2,Receive Line Status interrupt enable 
+,,RW,MSI,RW,0x0,3,3,Modem Status interrupt enable
+,,RW,unused,RW,0x0,7,4,unused
+iir,0x8,RO,ID,RO,0x1,3,0,Interrupt Identification
+,,RO,unused,RO,0xc,7,4,unused
+fcr,0x8,WO,unused,WO,0x0,5,0,unused
+,,WO,RFITL,WO,0x3,7,6,Sets the RX FIFO interrupt threshold
+lcr,0xc,RW,WL,RW,0x3,1,0,Defines the number of bits per character
+,,RW,STP,RW,0x0,2,2,Selects the number of stop bits transmitted:
+,,RW,PE,RW,0x0,3,3,Parity Enable
+,,RW,EP,RW,0x0,4,4,Even Parity Select
+,,RW,SP,RW,0x0,5,5,Stick Parity Select
+,,RW,BRK,RW,0x0,6,6,Break Control bit
+,,RW,DLAB,RW,0x0,7,7,reserved 
+mcr,0x10,RW,DTR,RW,0x0,0,0,Data Terminal Ready
+,,RW,RTS,RW,0x0,1,1,Request To Send 
+,,RW,OUT1,RW,0x0,2,2,Out1 
+,,RW,OUT2,RW,0x0,3,3,Out2
+,,RW,LBACK,RW,0x0,4,4,Loopback mode
+,,RW,unused,RW,0x0,7,5,unused
+lsr,0x14,RO,DR,RO,0x0,0,0,Data Ready 
+,,RO,OE,RO,0x0,1,1,Overrun Error
+,,RO,PE,RO,0x0,2,2,Parity Error
+,,RO,FE,RO,0x0,3,3,Framing Error
+,,RO,BI,RO,0x0,4,4,Break Interrupt
+,,RO,TFE,RO,0x1,5,5,Transmit FIFO empty 
+,,RO,TXE,RO,0x1,6,6,Transmit Empty
+,,RO,RFE,RO,0x0,7,7,FIFO Error
+msr,0x18,RO,DCTS,RO,0x0,0,0,Delta Clear To Send 
+,,RO,DDSR,RO,0x0,1,1,Delta Data Set Ready 
+,,RO,TERI,RO,0x0,2,2,Trailing Edge of Ring Indicator 
+,,RO,DDCD,RO,0x0,3,3,Delta Data Carrier Detect (
+,,RO,CTS,RO,0x0,4,4,"Inverse of the CTS input, or RTS in loopback mode"
+,,RO,DSR,RO,0x0,5,5,"nverse of the DSR input, or DTR in loopback mode "
+,,RO,RI,RO,0x0,6,6,"Inverse of the RI input, or Out1 in loopback mode "
+,,RO,DCD,RO,0x0,7,7,"Inverse of the DCD input, or Out2 in loopback mode"
+div1,0x1c,RW,DIV1,RW,0x0,7,0,Least significant byte of the 16 bit baud rate divisor
+div2,0x20,RW,DIV2,RW,0x0,7,0,Most significant byte of the 16 bit baud rate divisor

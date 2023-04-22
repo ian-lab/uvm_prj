@@ -1,0 +1,9 @@
+../rtl/*.sv
++incdir+../tb
+../tb/apb_pkg.sv
+../tb/rgm_pkg.sv 
+../tb/uart_pkg.sv
+../tb/modem_pkg.sv
+../tb/apb_uart_pkg.sv
+../tb/test.sv
+../tb/uart_tb.sv

@@ -1,0 +1,6 @@
+simSetSimulator "-vcssv" -exec "/home/ian/project/uvm_sha1/vcs/simv" -args \
+           "-sml=verdi +UVM_VERDI_TRACE=UVM_AWARE -ucli2Proc -ucli"
+debImport "-dbdir" "/home/ian/project/uvm_sha1/vcs/simv.daidir"
+debLoadSimResult /home/ian/project/uvm_sha1/vcs/inter.fsdb
+wvCreateWindow
+debExit

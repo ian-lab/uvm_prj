@@ -1,0 +1,70 @@
+global coverage_group 0 $unit::my_scoreboard::len_cov __coverage_my_scoreboard.len_cov unused_my_scoreboard_len_cov_loop_label $unit 0 1 0 1 $unit::../rtl/message_padder.v::../rtl/sha-1.v...@1174793006 0  ( 0 
+)
+ 1 1
+ 53 /home/ian/project/uvm_sha1/vcs/../tb/my_scoreboard.sv
+ 17 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+0
+0
+0
+64
+0
+ 0
+
+1
+0
+0
+0
+ 10 drv_length 18 0 0 0 0 61 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn 61 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 64 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 15 1 1 0 0 1 1 5 len_1 19 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_0 0 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_1 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_2 20 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_2 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_3 21 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_3 0 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_4 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_4 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_5 0 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_6 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_5 23 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_7 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_6 24 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_8 0 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_9 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_7 25 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_a 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_8 26 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_b 0 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_c 0 0 0 0 0
+ 1 1 0 0 1 1 5 len_9 27 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_d 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 len_10 28 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_e 0 63 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_f 0 0 0 0 0
+ 1 1 0 0 1 1 6 len_11 29 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_10 0 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_11 0 0 0 0 0
+ 1 1 0 0 1 1 6 len_12 30 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_12 0 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_13 0 0 0 0 0
+ 1 1 0 0 1 1 6 len_13 31 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_14 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 6 len_14 32 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_15 0 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_16 0 0 0 0 0
+ 1 1 0 0 1 1 6 len_15 33 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_16 0 64 my_scoreboard::_vcs_unit__1174793006_my_scoreboard_len_cov_fn_17 0 0 0 0 0
+
+end_coverage_group

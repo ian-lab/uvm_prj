@@ -1,0 +1,412 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/software/Questasim2021/examples
+T_opt
+!s11d fifo_pkg C:/Users/84308/Desktop/project/uvm_asynfifo/sim_q/work 1 fifo_intf 1 C:/Users/84308/Desktop/project/uvm_asynfifo/sim_q/work 
+!s110 1680857163
+VVo3Y@?W3YTIc_9fjEF9bi0
+04 2 4 work tb fast 0
+=4-3a6800dfaefb-642fd84a-387-34c4
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vcompare_rd
+Z2 !s110 1680857155
+!i10b 1
+!s100 [A[DBa<KAeSkk><31@SC61
+IRa_b]<RT3EAJg>1j]@nnF3
+Z3 dC:/Users/84308/Desktop/project/uvm_asynfifo/sim_q
+Z4 w1628494727
+Z5 8C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\comparator.v
+Z6 FC:\Users\84308\Desktop\project\uvm_asynfifo\rtl\comparator.v
+!i122 130
+L0 14 12
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z9 !s108 1680857155.000000
+Z10 !s107 C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\comparator.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\comparator.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcompare_wr
+R2
+!i10b 1
+!s100 ?b@[4mS78MRh:2kM3DDXd3
+I__=9Uo;ak>KFl;df7mN5l1
+R3
+R4
+R5
+R6
+!i122 130
+L0 1 12
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+Xfifo_if_sv_unit
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z14 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z15 !s110 1680857156
+V?EG`E4A>n`S0hVb2?mfRO2
+r1
+!s85 0
+!i10b 1
+!s100 4VBC7e6LEHG8>mj^`aYHC2
+I?EG`E4A>n`S0hVb2?mfRO2
+!i103 1
+S1
+R3
+Z16 w1680771918
+8C:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv
+FC:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv
+Z17 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z18 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z19 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z20 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z21 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z22 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z23 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z24 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z25 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z26 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z27 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z28 FD:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+!i122 135
+L0 3 0
+R8
+31
+R9
+!s107 D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|C:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/84308/Desktop/project/uvm_asynfifo/tb/fifo_if.sv|
+!i113 0
+Z29 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yfifo_intf
+R13
+R14
+Z30 DXx4 work 8 fifo_pkg 0 22 Hec@HG>::3lMfXUoQNdHQ2
+Z31 DXx4 work 13 fifo_test_pkg 0 22 2oM0?UImg<de2KK?13Hm52
+Z32 DXx4 work 10 tb_sv_unit 0 22 KhnRK7>MYX?ZjhN7mP9340
+R15
+R7
+r1
+!s85 0
+!i10b 1
+!s100 KJO^LDOLF0POO@Ai>>AX=1
+IWI<h9Vk6;C]NcZXm_VnEg2
+Z33 !s105 tb_sv_unit
+S1
+R3
+R16
+8C:\Users\84308\Desktop\project\uvm_asynfifo\tb/fifo_if.sv
+Z34 FC:\Users\84308\Desktop\project\uvm_asynfifo\tb/fifo_if.sv
+!i122 137
+L0 5 0
+R8
+31
+Z35 !s108 1680857156.000000
+Z36 !s107 C:\Users\84308\Desktop\project\uvm_asynfifo\tb/fifo_if.sv|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|C:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv|
+!i113 0
+R29
+R1
+Xfifo_pkg
+!s115 fifo_intf
+R13
+R14
+R15
+!i10b 1
+!s100 <3BaT?XHb2j^D4SL]6C9R2
+IHec@HG>::3lMfXUoQNdHQ2
+S1
+R3
+w1680856163
+8C:\Users\84308\Desktop\project\uvm_asynfifo\tb\fifo_pkg.sv
+FC:\Users\84308\Desktop\project\uvm_asynfifo\tb\fifo_pkg.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+!i122 136
+Z38 L0 1 0
+VHec@HG>::3lMfXUoQNdHQ2
+R8
+r1
+!s85 0
+31
+R35
+!s107 D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|C:\Users\84308\Desktop\project\uvm_asynfifo\tb\fifo_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\tb\fifo_pkg.sv|
+!i113 0
+R29
+R1
+Xfifo_test_pkg
+R13
+R14
+R30
+!s110 1680857157
+!i10b 1
+!s100 =?<blOMLmc[8C=i[_<g_F0
+IQL?cJH;XB2<S7DJVfS1PQ3
+S1
+R3
+w1680838046
+8C:\Users\84308\Desktop\project\uvm_asynfifo\tb\test.sv
+FC:\Users\84308\Desktop\project\uvm_asynfifo\tb\test.sv
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+!i122 138
+R38
+VQL?cJH;XB2<S7DJVfS1PQ3
+R8
+r1
+!s85 0
+31
+R35
+!s107 D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|C:\Users\84308\Desktop\project\uvm_asynfifo\tb\test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\tb\test.sv|
+!i113 0
+R29
+R1
+vfifo_top
+R2
+!i10b 1
+!s100 X180:mHQMX;Dm50`:kE110
+I3[^niM[AbPl5gnjW^5]n02
+R3
+w1680774256
+8C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\fifo_top.v
+FC:\Users\84308\Desktop\project\uvm_asynfifo\rtl\fifo_top.v
+!i122 131
+L0 1 105
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\fifo_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\fifo_top.v|
+!i113 0
+R12
+R1
+vmemory
+R2
+!i10b 1
+!s100 aM;RVHHD`43eO0MCT_6ZC0
+I>[P7AiKiG_j=Od:>JbJOz0
+R3
+w1680857152
+8C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\memory.v
+FC:\Users\84308\Desktop\project\uvm_asynfifo\rtl\memory.v
+!i122 132
+L0 1 30
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\memory.v|
+!i113 0
+R12
+R1
+vpointer
+R2
+!i10b 1
+!s100 JNZZTHIdY7]<m1;3j1dT43
+IaF0gjAmPKj]z5ajCn]Bhm1
+R3
+w1680856828
+8C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\pointer.v
+FC:\Users\84308\Desktop\project\uvm_asynfifo\rtl\pointer.v
+!i122 133
+L0 1 27
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\pointer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\pointer.v|
+!i113 0
+R12
+R1
+vsync_r2w
+R2
+!i10b 1
+!s100 U<OeESadPZAafIH6NN]h:0
+IK`lT7mAEJ0HEOJXZXR2d^2
+R3
+Z39 w1628494747
+Z40 8C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\sync.v
+Z41 FC:\Users\84308\Desktop\project\uvm_asynfifo\rtl\sync.v
+!i122 134
+L0 30 25
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z42 !s107 C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\sync.v|
+Z43 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\84308\Desktop\project\uvm_asynfifo\rtl\sync.v|
+!i113 0
+R12
+R1
+vsync_w2r
+R2
+!i10b 1
+!s100 ?M:=k_8HjUng>2;z0a@g21
+Ia0bWMVUaQ]ZDekfeh:]?A3
+R3
+R39
+R40
+R41
+!i122 134
+L0 2 26
+R7
+R8
+r1
+!s85 0
+31
+R9
+R42
+R43
+!i113 0
+R12
+R1
+vtb
+R13
+R14
+R30
+R31
+R32
+R15
+R7
+r1
+!s85 0
+!i10b 1
+!s100 l^H4DHmP=3_Z>n2QZ8LG>3
+I2HST1EG_LH0N5bMVNzdAk0
+R33
+S1
+R3
+Z44 w1680837406
+Z45 8C:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv
+Z46 FC:\Users\84308\Desktop\project\uvm_asynfifo\tb\tb.sv
+!i122 137
+L0 6 42
+R8
+31
+R35
+R36
+R37
+!i113 0
+R29
+R1
+Xtb_sv_unit
+R13
+R14
+R30
+R31
+R15
+VKhnRK7>MYX?ZjhN7mP9340
+r1
+!s85 0
+!i10b 1
+!s100 6CoR_Do>0IlUkXnQe<UJ_1
+IKhnRK7>MYX?ZjhN7mP9340
+!i103 1
+S1
+R3
+R44
+R45
+R46
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R34
+!i122 137
+R38
+R8
+31
+R35
+R36
+R37
+!i113 0
+R29
+R1

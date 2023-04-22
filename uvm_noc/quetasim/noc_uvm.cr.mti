@@ -1,0 +1,125 @@
+C:/Users/84308/Desktop/uvm_noc/tb/tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/84308/Desktop/uvm_noc/tb/tb.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface master_intf
+-- Compiling interface slave_intf
+** Note: (vlog-2286) C:/Users/84308/Desktop/uvm_noc/tb/tb.sv(4): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package tb_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package noc_env_pkg
+-- Importing package master_pkg
+-- Importing package slave_pkg
+-- Importing package noc_test_pkg
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/tb/noc_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/84308/Desktop/uvm_noc/tb/noc_if.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface master_intf
+-- Compiling interface slave_intf
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/rtl/src/Hermes_switchcontrol.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/84308/Desktop/uvm_noc/rtl/src/Hermes_switchcontrol.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package HeMPS_defaults
+-- Compiling entity SwitchControl
+-- Compiling architecture XY of SwitchControl
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/rtl/src/Hermes_crossbar.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/84308/Desktop/uvm_noc/rtl/src/Hermes_crossbar.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package HeMPS_defaults
+-- Compiling entity Hermes_crossbar
+-- Compiling architecture Hermes_crossbar of Hermes_crossbar
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/rtl/src/RouterCC.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/84308/Desktop/uvm_noc/rtl/src/RouterCC.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package HeMPS_defaults
+-- Compiling entity RouterCC
+-- Compiling architecture RouterCC of RouterCC
+-- Loading entity Hermes_buffer
+-- Loading entity SwitchControl
+-- Loading entity Hermes_crossbar
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/tb/slave_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/84308/Desktop/uvm_noc/tb/slave_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package slave_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/84308/Desktop/uvm_noc/tb/slave_pkg.sv(3): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package master_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/tb/test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/84308/Desktop/uvm_noc/tb/test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package noc_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/84308/Desktop/uvm_noc/tb/test.sv(3): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package noc_env_pkg
+-- Importing package master_pkg
+-- Importing package slave_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/rtl/src/HeMPS_defaults.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/84308/Desktop/uvm_noc/rtl/src/HeMPS_defaults.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package HeMPS_defaults
+-- Compiling package body HeMPS_defaults
+-- Loading package HeMPS_defaults
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/tb/noc_env_pkg.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/84308/Desktop/uvm_noc/tb/noc_env_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package noc_env_pkg
+-- Importing package master_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package slave_pkg
+** Note: (vlog-2286) C:/Users/84308/Desktop/uvm_noc/tb/noc_env_pkg.sv(5): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/rtl/src/Hermes_buffer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/84308/Desktop/uvm_noc/rtl/src/Hermes_buffer.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package HeMPS_defaults
+-- Compiling entity Hermes_buffer
+-- Compiling architecture Hermes_buffer of Hermes_buffer
+
+} {} {}} C:/Users/84308/Desktop/uvm_noc/tb/master_pkg.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\84308\Desktop\uvm_noc\tb\master_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package master_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:\Users\84308\Desktop\uvm_noc\tb\master_pkg.sv(3): Using implicit +incdir+D:/software/Questasim2021/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}
