@@ -1,1 +1,0 @@
-  CREATE_STREAM @0 {NAME:reg_seq T:Transactions SCOPE:uvm_test_top.env.vir_sqr STREAM:1858}
