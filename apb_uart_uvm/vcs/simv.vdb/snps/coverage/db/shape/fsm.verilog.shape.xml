@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE cov SYSTEM "ucdb_fsm.dtd">
+  <fsm count="0"  noconst="0"  >
+    <ucapi_version  major_ver="13"  minor_ver="1"  patch_str="O-2018.09-SP2"  />
+      <fsmdef file="154"  name="uart_tx"  lib=""  chksum="1373794536"  >
+        <fsmshape >
+          <fsmfsm name="tx_state"  id="0"  width="32"  line="60"  chksum="2268504190"  >
+            <state name="BIT0"  value="2"  id="0"  flag="L"  line="85"  />
+            <state name="BIT1"  value="3"  id="1"  flag="L"  line="94"  />
+            <state name="BIT2"  value="4"  id="2"  flag="L"  line="103"  />
+            <state name="BIT3"  value="5"  id="3"  flag="L"  line="112"  />
+            <state name="BIT4"  value="6"  id="4"  flag="L"  line="121"  />
+            <state name="BIT5"  value="7"  id="5"  flag="L"  line="131"  />
+            <state name="BIT6"  value="8"  id="6"  flag="L"  line="151"  />
+            <state name="BIT7"  value="9"  id="7"  flag="L"  line="171"  />
+            <state name="IDLE"  value="0"  id="8"  flag="L"  line="60"  />
+            <state name="PARITY"  value="a"  id="9"  flag="L"  line="136"  />
+            <state name="START"  value="1"  id="10"  flag="L"  line="71"  />
+            <state name="STOP1"  value="b"  id="11"  flag="L"  line="139"  />
+            <state name="STOP2"  value="c"  id="12"  flag="L"  line="220"  />
+
+            <transition fromid="0"  toid="1"  flag="L"  line="94"  />
+            <transition fromid="0"  toid="8"  flag="L"  line="60"  />
+            
+            <transition fromid="1"  toid="2"  flag="L"  line="103"  />
+            <transition fromid="1"  toid="8"  flag="L"  line="60"  />
+            
+            <transition fromid="2"  toid="3"  flag="L"  line="112"  />
+            <transition fromid="2"  toid="8"  flag="L"  line="60"  />
+            
+            <transition fromid="3"  toid="4"  flag="L"  line="121"  />
+            <transition fromid="3"  toid="8"  flag="L"  line="60"  />
+            
+            <transition fromid="4"  toid="5"  flag="L"  line="131"  />
+            <transition fromid="4"  toid="8"  flag="L"  line="60"  />
+            <transition fromid="4"  toid="9"  flag="L"  line="136"  />
+            <transition fromid="4"  toid="11"  flag="L"  line="139"  />
+            
+            <transition fromid="5"  toid="6"  flag="L"  line="151"  />
+            <transition fromid="5"  toid="8"  flag="L"  line="60"  />
+            <transition fromid="5"  toid="9"  flag="L"  line="156"  />
+            <transition fromid="5"  toid="11"  flag="L"  line="159"  />
+            
+            <transition fromid="6"  toid="7"  flag="L"  line="171"  />
+            <transition fromid="6"  toid="8"  flag="L"  line="60"  />
+            <transition fromid="6"  toid="9"  flag="L"  line="176"  />
+            <transition fromid="6"  toid="11"  flag="L"  line="179"  />
+            
+            <transition fromid="7"  toid="8"  flag="L"  line="60"  />
+            <transition fromid="7"  toid="9"  flag="L"  line="191"  />
+            <transition fromid="7"  toid="11"  flag="L"  line="194"  />
+            
+            <transition fromid="8"  toid="10"  flag="L"  line="71"  />
+            
+            <transition fromid="9"  toid="8"  flag="L"  line="60"  />
+            <transition fromid="9"  toid="11"  flag="L"  line="210"  />
+            
+            <transition fromid="10"  toid="0"  flag="L"  line="85"  />
+            <transition fromid="10"  toid="8"  flag="L"  line="60"  />
+            
+            <transition fromid="11"  toid="8"  flag="L"  line="60"  />
+            <transition fromid="11"  toid="12"  flag="L"  line="220"  />
+            
+            <transition fromid="12"  toid="8"  flag="L"  line="60"  />
+            
+          </fsmfsm>
+        </fsmshape>
+        <fsminst name="uart_tb.DUT.tx_channel"  />
+      </fsmdef>
+      <fsmdef file="152"  name="uart_rx"  lib=""  chksum="3001332590"  >
+        <fsmshape >
+          <fsmfsm name="rx_state"  id="0"  width="32"  line="90"  chksum="388542129"  >
+            <state name="BIT0"  value="2"  id="0"  flag="L"  line="117"  />
+            <state name="BIT1"  value="3"  id="1"  flag="L"  line="132"  />
+            <state name="BIT2"  value="4"  id="2"  flag="L"  line="142"  />
+            <state name="BIT3"  value="5"  id="3"  flag="L"  line="150"  />
+            <state name="BIT4"  value="6"  id="4"  flag="L"  line="160"  />
+            <state name="BIT5"  value="7"  id="5"  flag="L"  line="171"  />
+            <state name="BIT6"  value="8"  id="6"  flag="L"  line="190"  />
+            <state name="BIT7"  value="9"  id="7"  flag="L"  line="210"  />
+            <state name="IDLE"  value="0"  id="8"  flag="L"  line="90"  />
+            <state name="PARITY"  value="a"  id="9"  flag="L"  line="175"  />
+            <state name="START"  value="1"  id="10"  flag="L"  line="107"  />
+            <state name="STOP1"  value="b"  id="11"  flag="L"  line="178"  />
+            <state name="STOP2"  value="c"  id="12"  flag="L"  line="257"  />
+
+            <transition fromid="0"  toid="1"  flag="L"  line="132"  />
+            <transition fromid="0"  toid="8"  flag="L"  line="90"  />
+            
+            <transition fromid="1"  toid="2"  flag="L"  line="142"  />
+            <transition fromid="1"  toid="8"  flag="L"  line="90"  />
+            
+            <transition fromid="2"  toid="3"  flag="L"  line="150"  />
+            <transition fromid="2"  toid="8"  flag="L"  line="90"  />
+            
+            <transition fromid="3"  toid="4"  flag="L"  line="160"  />
+            <transition fromid="3"  toid="8"  flag="L"  line="90"  />
+            
+            <transition fromid="4"  toid="5"  flag="L"  line="171"  />
+            <transition fromid="4"  toid="8"  flag="L"  line="90"  />
+            <transition fromid="4"  toid="9"  flag="L"  line="175"  />
+            <transition fromid="4"  toid="11"  flag="L"  line="178"  />
+            
+            <transition fromid="5"  toid="6"  flag="L"  line="190"  />
+            <transition fromid="5"  toid="8"  flag="L"  line="90"  />
+            <transition fromid="5"  toid="9"  flag="L"  line="195"  />
+            <transition fromid="5"  toid="11"  flag="L"  line="198"  />
+            
+            <transition fromid="6"  toid="7"  flag="L"  line="210"  />
+            <transition fromid="6"  toid="8"  flag="L"  line="90"  />
+            <transition fromid="6"  toid="9"  flag="L"  line="214"  />
+            <transition fromid="6"  toid="11"  flag="L"  line="217"  />
+            
+            <transition fromid="7"  toid="8"  flag="L"  line="90"  />
+            <transition fromid="7"  toid="9"  flag="L"  line="229"  />
+            <transition fromid="7"  toid="11"  flag="L"  line="232"  />
+            
+            <transition fromid="8"  toid="10"  flag="L"  line="107"  />
+            
+            <transition fromid="9"  toid="8"  flag="L"  line="90"  />
+            <transition fromid="9"  toid="11"  flag="L"  line="241"  />
+            
+            <transition fromid="10"  toid="0"  flag="L"  line="117"  />
+            <transition fromid="10"  toid="8"  flag="L"  line="90"  />
+            
+            <transition fromid="11"  toid="8"  flag="L"  line="90"  />
+            <transition fromid="11"  toid="12"  flag="L"  line="257"  />
+            
+            <transition fromid="12"  toid="8"  flag="L"  line="90"  />
+            
+          </fsmfsm>
+        </fsmshape>
+        <fsminst name="uart_tb.DUT.rx_channel"  />
+      </fsmdef>
+      <fsmdef file="151"  name="uart_register_file"  lib=""  chksum="463482951"  >
+        <fsmshape >
+          <fsmfsm name="fsm_state"  id="0"  width="32"  line="160"  chksum="463482951"  >
+            <state name="ACCESS"  value="2"  id="0"  flag="L"  line="175"  />
+            <state name="IDLE"  value="0"  id="1"  flag="L"  line="160"  />
+            <state name="SETUP"  value="1"  id="2"  flag="L"  line="169"  />
+
+            <transition fromid="0"  toid="1"  flag="L"  line="160"  />
+            
+            <transition fromid="1"  toid="2"  flag="L"  line="169"  />
+            
+            <transition fromid="2"  toid="0"  flag="L"  line="175"  />
+            <transition fromid="2"  toid="1"  flag="L"  line="160"  />
+            
+          </fsmfsm>
+        </fsmshape>
+        <fsminst name="uart_tb.DUT.control"  />
+      </fsmdef>
+          <metric_sig chksum="701314947A92B6BFE4705B65F5A6569658905DFB"  />
+    </fsm>

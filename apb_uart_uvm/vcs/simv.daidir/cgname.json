@@ -1,0 +1,122 @@
+{
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "uart_tb": [
+        "uart_tb",
+        "srKcx",
+        "module",
+        19
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "apb_intf": [
+        "apb_intf",
+        "B1KkQ",
+        "module",
+        9
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "_vcs_unit__200236434": [
+        "_vcs_unit__200236434",
+        "fbsgh",
+        "module",
+        3
+    ],
+    "modem_intf": [
+        "modem_intf",
+        "i70fx",
+        "module",
+        12
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        6
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "uart_16550": [
+        "uart_16550",
+        "kAU1z",
+        "module",
+        7
+    ],
+    "apb_pkg": [
+        "apb_pkg",
+        "xtRSS",
+        "module",
+        13
+    ],
+    "uart_tx": [
+        "uart_tx",
+        "m9BkM",
+        "module",
+        8
+    ],
+    "uart_intf": [
+        "uart_intf",
+        "UPy3J",
+        "module",
+        10
+    ],
+    "apb_uart_test": [
+        "apb_uart_test",
+        "yjCkF",
+        "module",
+        18
+    ],
+    "irq_intf": [
+        "irq_intf",
+        "p6nVf",
+        "module",
+        11
+    ],
+    "apb_uart_rgm_pkg": [
+        "apb_uart_rgm_pkg",
+        "KFvsP",
+        "module",
+        14
+    ],
+    "modem_pkg": [
+        "modem_pkg",
+        "tY6Ny",
+        "module",
+        16
+    ],
+    "uart_pkg": [
+        "uart_pkg",
+        "B8pHK",
+        "module",
+        15
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        20
+    ],
+    "apb_uart_pkg": [
+        "apb_uart_pkg",
+        "JTjxv",
+        "module",
+        17
+    ]
+}

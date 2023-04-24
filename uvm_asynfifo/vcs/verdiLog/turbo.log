@@ -1,0 +1,9 @@
+Command Line: /opt/synopsys/verdi/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -i -simflow -simBin ./simv -simOpt  
+uname(Linux DESKTOP-RCC7JDV 5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023 x86_64)
+type= DS_SCOPE element= 1 field= 1
+VERILOG tb
+VERILOG du
+-----
+second field= DebussyLib
+third field= fifo_top
+au time 2093.345439 33.606623 16.140560 delta 318828544 318828544 total 751194112 751194112
