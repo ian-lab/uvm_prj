@@ -1,6 +1,8 @@
 `ifndef MY_SEQUENCE_SV
 `define MY_SEQUENCE_SV
-
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
 class my_sequence extends uvm_sequence #(my_trans);
     my_trans m_trans;
     `uvm_object_utils(my_sequence)

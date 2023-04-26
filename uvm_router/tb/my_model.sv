@@ -1,6 +1,8 @@
 `ifndef MY_MODEL_SV
 `define MY_MODEL_SV
-
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
 class my_model extends uvm_component;
     `uvm_component_utils(my_model)
 

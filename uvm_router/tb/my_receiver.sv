@@ -1,6 +1,8 @@
 `ifndef MY_RECEIVER_SV
 `define MY_RECEIVER_SV
-
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
 class rcv_monitor extends uvm_monitor;
     `uvm_component_utils(rcv_monitor);
 

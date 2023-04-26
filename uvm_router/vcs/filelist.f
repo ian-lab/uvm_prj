@@ -1,0 +1,13 @@
+../rtl/router.v
++incdir+../tb
+../tb/my_if.sv
+../tb/drv_pkg.sv
+../tb/my_driver.sv
+../tb/my_env.sv
+../tb/my_model.sv
+../tb/my_receiver.sv
+../tb/my_scoreboard.sv
+../tb/my_sequence.sv
+../tb/my_transaction.sv
+../tb/tb.sv
+../tb/test.sv

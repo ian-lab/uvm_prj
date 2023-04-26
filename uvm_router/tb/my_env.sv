@@ -1,6 +1,11 @@
 `ifndef MY_ENV_SV
 `define MY_ENV_SV
-
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+`include "my_transaction.sv"
+`include "my_receiver.sv"
+`include "my_model.sv"
+`include "my_scoreboard.sv"
 class my_env extends uvm_env;
     `uvm_component_utils(my_env)
     drv_agent drv_agt;
