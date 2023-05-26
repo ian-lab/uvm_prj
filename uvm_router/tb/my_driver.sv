@@ -3,12 +3,13 @@
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 `include "my_transaction.sv"
+
 class my_sequencer extends uvm_sequencer #(my_trans);
     `uvm_component_utils(my_sequencer)
     function new(string name="my_sequencer", uvm_component parent);
         super.new(name, parent);
-    endfunction //new()
-endclass //my_sequencer extends superClass
+    endfunction 
+endclass 
 
 class drv_driver extends uvm_driver #(my_trans);
     `uvm_component_utils(drv_driver)
@@ -41,10 +42,10 @@ class drv_driver extends uvm_driver #(my_trans);
             seq_item_port.item_done();
         end
         // phase.drop_objection(this);
-    endtask //
+    endtask 
 
     task do_driver(my_trans tr);
-        `uvm_info(get_type_name(),$sformatf("drv_id is 'h%8x,rcv_id is 'h%8x, payload is 'h%8x", tr.drv_id, tr.rcv_id, tr.payload), UVM_LOW)
+        // `uvm_info(get_type_name(),$sformatf("drv_id is 'h%8x,rcv_id is 'h%8x, payload is 'h%8x", tr.drv_id, tr.rcv_id, tr.payload), UVM_LOW)
         
         while(!drv_vif.reset_n)
             @(posedge drv_vif.clock);
@@ -71,7 +72,7 @@ class drv_driver extends uvm_driver #(my_trans);
         #100ns;  
     endtask 
 
-endclass // extends superClass
+endclass 
 
 
 class drv_monitor extends uvm_monitor;
@@ -133,9 +134,9 @@ class drv_monitor extends uvm_monitor;
         end
         tr.payload = payload;
 
-        `uvm_info(get_type_name(),$sformatf("drv_id is 'h%8x,rcv_id is 'h%8x, payload is 'h%8x", tr.drv_id, tr.rcv_id, tr.payload), UVM_LOW)
-    endtask //
-endclass //drv_monitor extends superClass
+        // `uvm_info(get_type_name(),$sformatf("drv_id is 'h%8x,rcv_id is 'h%8x, payload is 'h%8x", tr.drv_id, tr.rcv_id, tr.payload), UVM_LOW)
+    endtask 
+endclass 
 
 class drv_agent extends uvm_agent;
     drv_driver drv;
@@ -147,7 +148,7 @@ class drv_agent extends uvm_agent;
 
     function new(string name="drv_agent", uvm_component parent);
         super.new(name, parent);
-    endfunction //new()
+    endfunction 
 
     function void build_phase(uvm_phase phase);
         super.build_phase(phase);
@@ -155,13 +156,13 @@ class drv_agent extends uvm_agent;
         mon = drv_monitor::type_id::create("mon",this);
         sqr = my_sequencer::type_id::create("sqr",this);
     endfunction
+
     function void connect_phase(uvm_phase phase);
         super.connect_phase(phase);
         drv.seq_item_port.connect(sqr.seq_item_export);
         ap = mon.ap;
     endfunction
-
-endclass //my extends superClass
+endclass 
 
 
 `endif

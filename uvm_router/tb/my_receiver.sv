@@ -56,7 +56,7 @@ class rcv_monitor extends uvm_monitor;
         end
         tr.payload = payload;
         
-        `uvm_info(get_type_name(),$sformatf("rcv_id is 'h%8x, payload is 'h%8x", tr.rcv_id, tr.payload), UVM_LOW)
+        // `uvm_info(get_type_name(),$sformatf("rcv_id is 'h%8x, payload is 'h%8x", tr.rcv_id, tr.payload), UVM_LOW)
     endtask //
 endclass //rcv_monitor extends uvm_monitor
 

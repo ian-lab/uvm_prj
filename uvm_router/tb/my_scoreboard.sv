@@ -1,10 +1,11 @@
 `ifndef MY_SCOREBOARD_SV
 `define MY_SCOREBOARD_SV
+
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 `include "my_transaction.sv"
-class my_scoreboard extends uvm_scoreboard;
 
+class my_scoreboard extends uvm_scoreboard;
     `uvm_component_utils(my_scoreboard)
 
     uvm_blocking_get_port #(my_trans) rf_mdl_port;
@@ -28,7 +29,7 @@ class my_scoreboard extends uvm_scoreboard;
     function new(string name="my_scoreboard", uvm_component parent);
         super.new(name, parent);
         router_cov=new();
-    endfunction //new()
+    endfunction 
 
     function void build_phase(uvm_phase phase);
         super.build_phase(phase);
@@ -39,11 +40,11 @@ class my_scoreboard extends uvm_scoreboard;
     task main_phase(uvm_phase phase);
         super.main_phase(phase);
         fork
-            while(1)begin
+            while(1) begin
                 rf_mdl_port.get(get_expect);
                 expect_queue.push_back(get_expect);
             end
-            while(1)begin
+            while(1) begin
                 rcv_mon_port.get(get_actual);
                 if(expect_queue.size() > 0)begin
                     tmp_trans = expect_queue.pop_front();
@@ -53,7 +54,7 @@ class my_scoreboard extends uvm_scoreboard;
                         `uvm_fatal(get_type_name(),$sformatf("compare failed, expected rcv_id is 'h%2x, actual rcv_id is 'h%2x,",tmp_trans.rcv_id, get_actual.rcv_id))
                     end
                     else begin
-                        `uvm_info(get_type_name(), "compare successful", UVM_LOW)
+                        // `uvm_info(get_type_name(), "compare successful", UVM_LOW)
                     end
                 end
                 else begin
