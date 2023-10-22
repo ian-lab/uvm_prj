@@ -47,6 +47,10 @@ module tb_sha_1;
         uvm_config_db#(virtual my_intf)::set(null, "uvm_test_top.env.rcv_agent*", "my_intf", my_if);
         run_test("base_test");
     end
+    initial begin
+		$fsdbDumpfile("tb.fsdb");
+		$fsdbDumpvars(0,tb_sha_1);
+	end
   
 endmodule
 

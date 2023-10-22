@@ -65,5 +65,8 @@ module uart_tb();
         uvm_config_db#(virtual uart_intf)::set(uvm_root::get(),  "uvm_test_top.env.uart_tx_agt*", "uart_vif",  uart_tx);
         run_test();
     end
-
+	initial begin
+		$fsdbDumpfile("uart.fsdb");
+		$fsdbDumpvars(0,uart_tb);
+	end
 endmodule

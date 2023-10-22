@@ -1,7 +1,7 @@
 all: cmp sim_all  
 
 cmp:	
-	vcs -full64 -sverilog -timescale=1ns/1ps -ntb_opts uvm-1.2 -top uart_tb -lca -f filelist.f -kdb -debug_all -LDFLAGS -Wl,--no-as-needed -cm line+cond+branch+fsm
+	vcs -full64 -sverilog -timescale=1ns/1ps -ntb_opts uvm-1.2 -top uart_tb -lca -f filelist.f -kdb -debug_all -LDFLAGS -Wl,--no-as-needed -cm line+cond+branch+fsm -fsdb
 
 sim_all: sim_apb_uart_reg_test sim_apb_uart_baud_test sim_apb_uart_rx_tx_test sim_apb_uart_rx_tx_int_test sim_apb_uart_rx_error_test sim_apb_uart_modem_test
 
@@ -17,7 +17,8 @@ sim_apb_uart_rx_error_test:
 	./simv -l sim_apb_uart_rx_error_test.log +UVM_TESTNAME=apb_uart_rx_error_test -cm line+cond+branch+fsm -cm_name sim_apb_uart_rx_error_test -cm_dir sim_apb_uart_rx_error_test.vdb
 sim_apb_uart_modem_test:
 	./simv -l sim_apb_uart_modem_test.log +UVM_TESTNAME=apb_uart_modem_test -cm line+cond+branch+fsm -cm_name apb_uart_modem_test -cm_dir apb_uart_modem_test.vdb
-
+verdi:
+	verdi -sv -f filelist.f
 clean:
 	rm -rf *.log *.vdb *simv* *.h *.key cg_report csrc vdCovLog
 
